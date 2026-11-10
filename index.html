@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Shabdkosh</title>
+  <meta name="description" content="A Hindi dictionary you can search in Devanagari or in Roman letters, however you spell it.">
+  <meta name="theme-color" content="#1F2A5C">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="preload" href="fonts/tiro-devanagari-hindi-devanagari-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="src/app.js"></script>
+</head>
+<body>
+  <header class="bar">
+    <a class="brand" href="#/" aria-label="Shabdkosh home">
+      <span class="brand-deva" lang="hi">शब्दकोश</span>
+    </a>
+    <a class="saved-link" href="#/saved">Saved <span id="saved-count"></span></a>
+  </header>
+
+  <main>
+    <form class="search" role="search" id="search-form">
+      <label for="q" class="visually-hidden">Search the dictionary</label>
+      <input id="q" name="q" type="search" autocomplete="off" autocapitalize="off" spellcheck="false"
+             enterkeyhint="search" placeholder="dharm, धर्म, or water">
+      <button type="button" id="clear" class="clear" aria-label="Clear search" hidden>×</button>
+    </form>
+
+    <section id="view" aria-live="polite"></section>
+  </main>
+
+  <noscript><p class="note">This dictionary needs JavaScript to search.</p></noscript>
+</body>
+</html>
