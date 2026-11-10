@@ -109,7 +109,9 @@ export function suggest(index, rawQuery, n = 3) {
         : Math.min(...[...item.keys].map((k) => distance(q, k)));
       return { entry: item.entry, d };
     })
-    .filter((x) => x.d <= Math.max(2, Math.ceil(q.length / 2)))
+    // Roughly one edit per three letters: close enough that the suggestion
+    // is plausibly what they meant, so gibberish gets no suggestions at all.
+    .filter((x) => x.d <= Math.max(1, Math.round(q.length / 3)))
     .sort((a, b) => a.d - b.d || a.entry.id - b.entry.id)
     .slice(0, n)
     .map((x) => x.entry);

@@ -55,7 +55,7 @@
     --paper: #0F1430;
     --sheet: #171D3D;
     --rule: #2C3359;
-    --turmeric: #E0B12A;
+    --turmeric: rgba(224, 177, 42, 0.5);
     --focus: #8FA6FF;
     color-scheme: dark;
   }
@@ -144,7 +144,7 @@ main {
 .words li + li { border-top: 1px solid var(--rule); }
 .word-row {
   display: grid;
-  grid-template-columns: auto 1fr;
+  grid-template-columns: minmax(7.5rem, max-content) 1fr;
   column-gap: 14px;
   align-items: baseline;
   padding: 12px 4px;
@@ -225,7 +225,7 @@ main {
   margin: 6px 0 0;
 }
 .example mark {
-  background: linear-gradient(transparent 55%, var(--turmeric) 55%, var(--turmeric) 92%, transparent 92%);
+  background: linear-gradient(transparent 38%, var(--turmeric) 38%, var(--turmeric) 82%, transparent 82%);
   color: inherit;
   padding: 0 2px;
 }

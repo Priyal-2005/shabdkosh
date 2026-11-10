@@ -99,6 +99,8 @@ test('garbage gives an empty result, and suggestions stay sane', () => {
   assert.deepEqual(search(index, '!!!'), []);
   const s = suggest(index, 'dhrmaa').map((e) => e.headword);
   assert.ok(s.includes('धर्म'));
+  assert.deepEqual(suggest(index, 'xyzzq'), []);
+  assert.deepEqual(suggest(index, 'qwerty'), []);
 });
 
 test('transliterator handles conjuncts, anusvara and visarga', () => {
