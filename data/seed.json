@@ -1,0 +1,12 @@
+[
+  {"id": 1, "headword": "शिक्षा", "transliteration": "śikṣā", "romanised": ["shiksha", "siksha", "shiksa"], "pos": "noun (f.)", "meanings": ["education", "learning"], "example": "शिक्षा हर बच्चे का अधिकार है।"},
+  {"id": 2, "headword": "भाषा", "transliteration": "bhāṣā", "romanised": ["bhasha", "bhasa", "bhaasha"], "pos": "noun (f.)", "meanings": ["language", "speech"], "example": "हिंदी भारत की एक प्रमुख भाषा है।"},
+  {"id": 3, "headword": "शब्द", "transliteration": "śabda", "romanised": ["shabd", "shabda", "sabd"], "pos": "noun (m.)", "meanings": ["word", "sound"], "example": "इस शब्द का अर्थ क्या है?"},
+  {"id": 4, "headword": "प्रकाश", "transliteration": "prakāśa", "romanised": ["prakash", "prakaash", "prakasha"], "pos": "noun (m.)", "meanings": ["light", "brightness"], "example": "सूरज का प्रकाश कमरे में फैल गया।"},
+  {"id": 5, "headword": "वृक्ष", "transliteration": "vṛkṣa", "romanised": ["vriksh", "vriksha", "vruksh"], "pos": "noun (m.)", "meanings": ["tree"], "example": "आँगन में एक पुराना वृक्ष है।"},
+  {"id": 6, "headword": "समय", "transliteration": "samaya", "romanised": ["samay", "samaya", "samai"], "pos": "noun (m.)", "meanings": ["time", "occasion"], "example": "समय का सही उपयोग करो।"},
+  {"id": 7, "headword": "कर्म", "transliteration": "karma", "romanised": ["karm", "karma"], "pos": "noun (m.)", "meanings": ["action", "deed", "duty"], "example": "अच्छे कर्म का फल अच्छा होता है।"},
+  {"id": 8, "headword": "शांति", "transliteration": "śānti", "romanised": ["shanti", "shaanti", "santi"], "pos": "noun (f.)", "meanings": ["peace", "calm"], "example": "गाँव में शांति का माहौल है।"},
+  {"id": 9, "headword": "प्रेम", "transliteration": "prema", "romanised": ["prem", "prema"], "pos": "noun (m.)", "meanings": ["love", "affection"], "example": "माँ का प्रेम निस्वार्थ होता है।"},
+  {"id": 10, "headword": "सत्य", "transliteration": "satya", "romanised": ["satya", "saty"], "pos": "noun (m.)", "meanings": ["truth"], "example": "सत्य की हमेशा जीत होती है।"}
+]
