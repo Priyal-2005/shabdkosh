@@ -3,7 +3,7 @@
 A small Hindi dictionary you can search the way people actually type: in Devanagari (धर्म), in IAST (dharma), or in whatever Roman spelling comes to mind (dharm, dharam, Dharma). Built for the Garuda Prakashan × Rishihood live-project assignment, Track 3.
 
 - **Live:** [_Shabdkosh_](https://shabdkosh-ten.vercel.app/)
-- **Demo video:** _add Loom link_
+- **Demo video:** [_Demo_](https://drive.google.com/drive/folders/1w-CHNUHFOK-YG5Gg2r5Y4wPqXpK1Kv7A?usp=sharing)
 
 ## Run it
 
